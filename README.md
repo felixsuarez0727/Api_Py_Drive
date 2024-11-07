@@ -1,4 +1,4 @@
-# Health Care Backend API
+# Api Py Drive
 
 A robust API built with Python, designed to make use of the services offered by Google Drive through Python and the use of the GoogleDrive API.
 
@@ -9,26 +9,25 @@ A robust API built with Python, designed to make use of the services offered by 
 4. [Project Structure](#project-structure-)
 5. [Configuration](#configuration-)
 6. [API Documentation](#api-documentation-)
-7. [Development](#development-)
-8. [Contact](#contact-)
+7. [Contact](#contact-)
 
    
 
 ## Features ✨
 
-- Create files: used to create any type of file
-- Upload files: used to upload any type of file
-- Download files: used to download any type of file
-- Search files: used to search for any type of file
-- Download files by name: used to search specifically for a file by name
-- Delete files: used to delete any file
-- Recover files: used to recover files from the trash
-- Create folder: used to create folders in the drive
-- List current permissions: used to see the permissions that users have
-- Insert permissions: used to grant permissions to users
-- Delete permissions: used to remove permissions from users
-- Edit permissions: used to change the permissions that users have
-- Add accounts for permissions: used to add new users to give them permissions permissions
+- Create files: Used to create any type of file
+- Upload files: Used to upload any type of file
+- Download files: Used to download any type of file
+- Search files: Used to search for any type of file
+- Download files by name: Used to search specifically for a file by name
+- Delete files: Used to delete any file
+- Recover files: Used to recover files from the trash
+- Create folder: Used to create folders in the drive
+- List current permissions: Used to see the permissions that users have
+- Insert permissions: Used to grant permissions to users
+- Delete permissions: Used to remove permissions from users
+- Edit permissions: Used to change the permissions that users have
+- Add accounts for permissions: Used to add new users to give them permissions permissions
 
 ## Requirements 🛠
 
@@ -44,7 +43,7 @@ git clone <repository-url>
 cd Api_Py_Drive
 ```
 
-2. install linux terminal, follow the tutorial
+2. Install linux terminal, follow the tutorial
 link: https://youtu.be/0FWlZOL9P64
 
 3. Install dependencies
@@ -57,7 +56,7 @@ sudo pip3 intsall setuptools-rust
 ## Project Structure 📦
 
 ```
-healthcare-backend/
+Api_Py_Drive/
 ├── GoogleDrive.py
 ├── Permisos.py
 └── QuickStart.py
@@ -80,7 +79,7 @@ CREDENTIALS CREATION
 - [ ] Rename the file to “client_secrets.json” and put it at the height of the folder where the credentials will be generated example:
 ![](https://github.com/felixsuarez0727/Api_Py_Drive/blob/main/example.png?raw=true)
 
-- [ ] install linux terminal, follow the tutorial
+- [ ] Install linux terminal, follow the tutorial 
 - [ ] Install the necessary dependencies
 - [ ] Run the code and show that every time you run you have to log in
 code to run, place the path of its location
@@ -90,11 +89,11 @@ code to run, place the path of its location
 
 
 
-### create files
+### Create Files
 
 1. Create file : settings.yaml
 
-2. put the following code
+2. Put the following code
 
 
 ```
@@ -116,27 +115,27 @@ oauth_scope:
 
 ## API Documentation 🔌
 
-### GoogleDrive.py file function
+### GoogleDrive.py File Function
 
 | Function | Description |
 |----------|-------------|
-| `crear_archivo_texto` | used to create any type of file |
-| `subir_archivo` | used to upload any type of file |
-| `bajar_archivo_por_id` | used to download any type of file |
-| `busca` | used to search for any type of file |
-| `bajar_acrchivo_por_nombre` | used to search specifically for a file by name |
-| `borrar_recuperar` | used to delete any file |
-| `crear_carpeta` | used to recover files from the trash |
-| `mover_archivo` | used to create folders in the drive |
+| `create_text_file` | Used to create any type of file |
+| `upload_file` | Used to upload any type of file |
+| `download_file_by_id` | Used to download any type of file |
+| `search` | Used to search for any type of file |
+| `download_file_by_name` | Used to search specifically for a file by name |
+| `delete_recover` | Used to delete any file |
+| `create_folder` | Used to recover files from the trash |
+| `move_file` | Used to create folders in the drive |
 
 
-### Permisos.py file function
+### Permisos.py File Function
 
 | Function | Description |
 |----------|-------------|
-| `enlistar_permisos_actuales` | used to see the permissions that users have |
-| `insertar_permisos` | used to grant permissions to users |
-| `eliminar_permisos` | used to remove permissions from users |
+| `list_current_permissions` | Used to see the permissions that users have |
+| `insert_permissions` | Used to grant permissions to users |
+| `remove_permissions` | Used to remove permissions from users |
 
 
 ## Contact 📌
